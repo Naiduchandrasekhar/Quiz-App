@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="flex justify-center items-center">
       <div className="pt-[40px] text-center">
-        <h1 className="text-3xl font-bold">World Quiz</h1>
+        <h1 className="text-3xl font-bold">The World Quiz</h1>
         {currentQuestion < questions.length && (
           <div className="border-2 border-gray-500 p-4 mt-4">
             <QuestionComp
